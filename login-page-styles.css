@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side{
+    width: 65%;
+    height: 100vh;
+    /* float: left; */
+    border-right: 1px solid gray;
+}
+
+.left-side header img{
+    margin: auto auto auto 20px;
+    width: 170px;
+    height: 170px;
+}
+
+.login-options img{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-head{
+    align-self: center;
+}
+
+.login-head h2{
+    font-size: 3rem;
+    
+}
+
+.login-options{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.login-options p{
+    font-size: 1.5rem;
+    margin: auto auto 20px auto;
+    color: rgba(52, 51, 51, 0.866);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-links{
+    align-self: center;
+}
+
+.login hr{
+    color: rgb(62, 67, 67, 0.9);
+    visibility: 50%;
+    width: 15vh;
+    margin: 20px auto auto auto;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 15px auto auto auto;
+}
+
+.login-form input{
+    background-color: rgb(225, 228, 228);
+    height: 4vh;
+    width: 15vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 17px;
+    margin: 5px;
+    padding-left: 3vh;
+}
+
+.login-form a{
+    margin: 20px auto auto auto;
+    align-self: center;
+}
+
+.login-form button{
+    width: 10vw;
+    height: 4vh;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(0, 255, 183);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.right-side{
+    width: 35%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 255, 221), rgba(59, 222, 200, 0.882), rgb(144, 197, 190));
+}
+
+.right-side main{
+    display: flex;
+    flex-direction: column;
+    margin: 10vw auto auto auto;
+}
+
+.right-side main h1{
+    align-self: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.right-side main p{
+    font-size: 20px;
+    width: 25vw;
+    align-self: center;
+    margin: auto auto 6vh auto;
+    color: white;
+}
+
+.right-side main a{
+    align-self: center;
+}
+
+.right-side main button{
+    width: 10vw;
+    height: 4vh;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* align-self: center; */
+}
