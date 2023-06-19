@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="Signup.css">
+
+<style>
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.Sign-Up-Form{
+    
+    width:300px ;
+    box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding:20px ;
+    margin:8% auto 0;
+    text-align: center;
+}
+.Sign-Up-Form h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius:20px ;
+    margin:10px 0;
+    padding:10px ;
+    outline:none;
+    width:80% ;
+    border:1px solid #999 ;
+}
+button{
+    color:#fff ;
+    margin: 10px 0;
+    padding:10px;
+    outline:none;
+    width:100%;
+    font-size:15px;
+    border-radius:20px;
+    border: none;
+    cursor: pointer;
+}
+.signup-btn{
+    background-color: #1c8adb;
+}
+.twitter-btn{
+    background-color: #21a;
+}
+.facebook-btn{
+    background-color: #21a;
+}
+.google-btn{
+background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top:20px;
+    width: 80px;
+}
+.or{
+    width:30px;
+    background:#fff;
+    margin:-19px auto 10px;
+}
+img{
+    width: 70px;
+    margin-top: -50px;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="Sign-Up-Form">
+        <h1>Sign up Now</h1>
+        <form>
+            <label for="Yourname">Full Name:</label> 
+            
+            <input type="text" class="input-box" placeholder="Aman Gupta">
+            <br>
+            <label for="mail">E-Mail Address:</label>
+            <input type="email" class="input-box" placeholder="abc@gmail.com">
+            <br>
+            <label for="number">Phone Number:</label>
+            <input type="number" class="input-box" placeholder="987564321">
+            <br>
+            <label for="DOB">Date Of Birth</label><br>
+            <input type="Date" id="DOB" name="Date Of Birth" >
+            <br><br>
+            <label for="Country">Country:</label>
+            <input type="text" class="input-box" placeholder="India">
+            <br>
+            <input type="Password" class="input-box" placeholder="Your Password">
+            <p><span><input type="checkbox"></span> agree to the term of services</p>
+            <button type="button" class="signup-btn">Sign Up</button>
+            <hr>
+            <p class="or">OR</p>
+            <button type="button" class="signup-btn">Login with Twitter</button>
+            <button type="button" class="signup-btn">Login with Google</button>
+            <button type="button" class="signup-btn">Login with facebook</button>
+            <p>Do you have an account?<a href="#">Sign Up</a></p>
+
+        </form>
+
+    </div>
+
+
+
+</body>
+</html>
