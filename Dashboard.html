@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Dashnborad.css">
+  <title>Fintrack</title>
+  <link rel="icon" type="image/x-icon" href="Dashboard-Images/Favicon.png">
+</head>
+
+<body>
+
+  <section class="fdashboardmain">
+    <div class=" navbar">
+      <div class="logo">
+        <img id=logo src="Dashboard-Images/logo.png" alt="Fintrack Logo">
+      </div>
+      <div class="logout">
+        <a href="Landing-index.html"><button>Logout</button></a>
+        <img src="Dashboard-Images/user.png">
+      </div>
+    </div>
+  </section>
+  <div class="nav-tab">
+    <a href="#"><button><img src="Dashboard-Images/dashboard-icon.png"></button></a>
+    <a href="#"><button><img src="Dashboard-Images/transaction.png"></button></a>
+    <a href="#"><button><img src="Dashboard-Images/profit.png"></button></a>
+    <a href="#"><button><img src="Dashboard-Images/expenses.png"></button></a>
+  </div>
+  <header>
+    <h1>Personal Finance Tracker</h1>
+    <h2>Current Balance: Rs. <span id="balance">0.00</span></h2>
+  </header>
+
+  <div class="trans-form">
+    <form id="transaction-form">
+      <input type="text" id="description" placeholder="Description" required>
+      <input type="number" id="amount" placeholder="Amount" required>
+      <input type="date" id="date" placeholder="date" required>
+      <select id="type" required>
+        <option value="income" class="options">Income</option>
+        <option value="expense" class="options">Expense</option>
+      </select>
+      <button type="submit">Add Transaction</button>
+    </form>
+  </div>
+
+  <ul id="transaction-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

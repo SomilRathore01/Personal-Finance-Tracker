@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+section {
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logout {
+  margin: 35px 35px auto auto;
+  display: flex;
+}
+
+/* .logout a{
+  padding-bottom: 10px;
+} */
+
+.logout button {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #007bff;
+  color: #f8eaea;
+  margin-right: 35px;
+}
+
+.logout img {
+  width: 35px;
+  height: 35px;
+  background-color: #f8eaea;
+  border-radius: 50%;
+  /* margin: 10px ; */
+}
+
+#logo {
+  height: 70px;
+  width: 200px;
+  margin: 20px auto 75px 25px;
+}
+
+.nav-tab{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: +2;
+  margin: 73vh auto auto 40vw;
+  background-color: #007bff;
+  border-radius: 40px;
+}
+
+.nav-tab button{
+  width: 50px;
+  height: 50px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 50%;
+  background-color: #007bff;
+}
+
+.nav-tab img{
+  width: 30px;
+  height: 30px;
+  /* margin: 15px 20px 15px 10px; */
+}
+
+.nav-tab img:hover{
+  cursor: pointer;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+form input,
+form select,
+form button {
+  margin: 5px;
+  padding: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+li.income {
+  background-color: #e9f5e9;
+  color: #2ecc71;
+}
+
+li.expense {
+  background-color: #f8eaea;
+  color: #e74c3c;
+}
+
+li button {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.trans-form{
+  display: flex;
+  justify-content: center;
+}
+
+#description{
+  background-color: aliceblue;
+  color: black;
+  border: 0.5px solid #007bff;
+  border-radius: 15px;
+}
+
+#description:hover{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+#amount{
+  background-color: aliceblue;
+  color: black;
+  border: 0.5px solid #007bff;
+  border-radius: 15px;
+}
+
+#amount:hover{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+#date{
+  background-color: aliceblue;
+  color: black;
+  border: 0.5px solid #007bff;
+  border-radius: 15px;
+}
+
+#date:hover{
+  border: none;
+  border-bottom: 2px solid gray;
+}
+
+form select{
+  width: 8rem;
+  background-color: aliceblue;
+  color: black;
+  border: 0.5px solid #007bff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+form button{
+  width: 8rem;
+  background-color: aliceblue;
+  color: black;
+  border: 0.5px solid #007bff;
+  border-radius: 15px;
+  cursor: pointer;
+}
