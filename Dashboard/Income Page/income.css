@@ -109,6 +109,11 @@
     display: grid;
     grid-template-columns: 3fr 2fr 1fr 1fr;
   }
+
+  .table{
+    display: flexbox;
+    justify-content: space-evenly;
+  }
   .product {
     font-weight: 500;
     color: #363d55;
