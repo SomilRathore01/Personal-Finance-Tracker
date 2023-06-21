@@ -16,7 +16,40 @@
     <link rel="stylesheet" href="income.css" />
   </head>
   <body>
+     <!-- Nav bar of Dashboard -->
+     <div class="left-side">
+      <div class="wrapper">
+        <div class="side-bar">
+          <div class="profile">
+            <img src="Images/Profile.png" alt="Profile-Picture">
+            <h3>User-1</h3>
+          </div>
+          <div class="nav-bar">
+            <a href="#">
+              <span class="icon"><i class="fas fa-home"></i></span>
+              <span class="nav-item">Dashboard</span>
+            </a>
+            <a href="#">
+              <span class="icon"><i class="fa fa-money"></i></span>
+              <span class="nav-item">Transactions</span>
+            </a>
+            <a href="#">
+              <span class="icon"><i class="fa fa-dollar"></i></span>
+              <span class="nav-item">Income</span>
+            </a>
+            <a href="#">
+              <span class="icon"><i class="fa fa-credit-card"></i></span>
+              <span class="nav-item">Expenses</span>
+            </a>
+          </div>
+          <div class="logout">
+            <a href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="wrapper">
+     
       <div class="container">
         <div class="sub-container">
           <!-- Budget -->
@@ -28,7 +61,7 @@
             <input
               type="number"
               id="total-amount"
-              placeholder="100000"
+              placeholder="Rs 100000"
             />
             <!-- <button class="submit" id="total-amount-button"></button> -->
           </div>
@@ -72,18 +105,45 @@
         <!-- Output -->
         <div class="output-container flex-space">
           <div>
-            <p>Total Budget</p>
-            <span id="amount">0</span>
+            <p>Source </p>
+            <span id="text">Salary</span>
+            <span id="text">Freelancing</span>
+            <span id="text">Investment</span>
+            <span id="text">Interest</span>
+            
           </div>
           <div>
-            <p>Income</p>
-            <span id="expenditure-value">0</span>
+            <p>Status</p>
+            <span id="title">Recieved</span>
+            <span id="title">Recieved</span>
+            <span id="title">Recieved</span>
+            <span id="title">Recieved</span>
           </div>
           <div>
-            <p>Balance</p>
+            <p>Amount</p>
+            <span id="balance-amount">0</span>
+            <span id="balance-amount">0</span>
+            <span id="balance-amount">0</span>
             <span id="balance-amount">0</span>
           </div>
+          <div>
+            <p>Delete</p>
+            <span id="material-icons">&#xe872;</span>
+            <span id="material-icons">&#xe872;</span>
+            <span id="material-icons">&#xe872;</span>
+            <span id="material-icons">&#xe872;</span>
+          
+          </div>
+          <div>
+            <p>Edit</p>
+            <span class='fas fa-edit' style='font-size:24px'></span>
+            <span class='fas fa-edit' style='font-size:24px'></span>
+            <span class='fas fa-edit' style='font-size:24px'></span>
+            <span class='fas fa-edit' style='font-size:24px'></span>
+            
+          </div>
         </div>
+       
       </div>
      
     </div>
