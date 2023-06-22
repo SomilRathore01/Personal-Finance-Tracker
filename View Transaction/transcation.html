@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="transaction.css">
+  <title>Fintrack</title>
+  <link rel="icon" type="image/x-icon" href="/Images/Favicon.png">
+</head>
+
+<body>
+  <div class="left-side">
+    <div class="wrapper">
+      <div class="side-bar">
+        <div class="profile">
+          <img src="Dashboard-images/user.png" alt="Profile-Picture">
+          <h3>User-1</h3>
+        </div>
+        <div class="nav-bar">
+          <a href="#">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="nav-item">Dashboard</span>
+          </a>
+          <a href="#">
+            <span class="icon"><i class="fa fa-money"></i></span>
+            <span class="nav-item">Transactions</span>
+          </a>
+          <a href="#">
+            <span class="icon"><i class="fa fa-dollar"></i></span>
+            <span class="nav-item">Income</span>
+          </a>
+          <a href="#">
+            <span class="icon"><i class="fa fa-credit-card"></i></span>
+            <span class="nav-item">Expenses</span>
+          </a>
+        </div>
+        <div class="logout">
+          <a href="#">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="fdashboardmain">
+
+    <!-- <header>
+      <h1>Personal Finance Tracker</h1>
+      <h2>Current Balance: <span id="balance">0.00</span></h2>
+    </header> -->
+  </section>
+  <form id="transaction-form">
+    <input type="text" id="description" placeholder="Description" required>
+    <input type="number" id="amount" placeholder="Amount" required>
+    <select id="type" required>
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <button type="submit">Add Transaction</button>
+  </form>
+
+  <ul id="transaction-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
