@@ -5,6 +5,7 @@ const amountInput = document.getElementById('amount');
 const typeInput = document.getElementById('type');
 const transactionList = document.getElementById('transaction-list');
 const balanceDisplay = document.getElementById('balance');
+const dateinput = document.getElementById('date');
 
 // Initialize transaction data
 let transactions = [];
@@ -16,11 +17,12 @@ function addTransaction(e) {
 
   // Get user input values
   const description = descriptionInput.value;
+  const date = dateinput.value
   const amount = +amountInput.value;
   const type = typeInput.value;
 
   // Create transaction object
-  const transaction = { description, amount, type };
+  const transaction = { description, date, amount, type };
 
   // Add transaction to the data array
   transactions.push(transaction);
@@ -35,6 +37,7 @@ function addTransaction(e) {
   // Clear form inputs
   descriptionInput.value = '';
   amountInput.value = '';
+  dateinput.value = '';
   typeInput.selectedIndex = 0;
 
   // Update the UI
@@ -77,7 +80,8 @@ function updateUI() {
   // Render each transaction in the list
   transactions.forEach((transaction, index) => {
     const listItem = document.createElement('li');
-    listItem.textContent = `${transaction.description}: ${transaction.amount.toFixed(2)}`;
+    listItem.style.wordSpacing = "40px"
+    listItem.textContent = `${transaction.description}:         ${transaction.date}         ${transaction.amount.toFixed(2)}`;
     listItem.classList.add(transaction.type);
     const editButton = document.createElement("button");
     editButton.innerText = "Edit"
