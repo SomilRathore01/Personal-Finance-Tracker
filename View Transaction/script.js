@@ -5,11 +5,14 @@ const amountInput = document.getElementById('amount');
 const typeInput = document.getElementById('type');
 const transactionList = document.getElementById('transaction-list');
 const balanceDisplay = document.getElementById('balance');
+const NooftransactionDisplay = document.getElementById('transac');
 const dateinput = document.getElementById('date');
 
 // Initialize transaction data
-let transactions = [];
-let balance = 0;
+let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
+let balance = parseFloat(localStorage.getItem('balance')) || 0;
+let transac= parseFloat(localStorage.getItem('transac')) || 0;
+
 
 // Function to add a transaction
 function addTransaction(e) {
@@ -30,23 +33,29 @@ function addTransaction(e) {
   // Update the balance
   if (type === 'income') {
     balance += amount;
+    transac +=1;
   } else if (type === 'expense') {
     balance -= amount;
+    transac +=1;
+
   }
 
   // Clear form inputs
   descriptionInput.value = '';
-  amountInput.value = '';
   dateinput.value = '';
+  amountInput.value = '';
   typeInput.selectedIndex = 0;
-
+  localStorage.setItem('transactions', JSON.stringify(transactions));
+  localStorage.setItem('balance', balance);
   // Update the UI
   updateUI();
 }
 const EditFunc  = (index) =>{
     let update = window.prompt("Update the discription")
     let transaction = transactions[index];
-    const updatedval =  transaction.description=update  
+    const updatedval =  transaction.description=update 
+    localStorage.setItem('transactions', JSON.stringify(transactions));
+    localStorage.setItem('balance', balance); 
     updateUI() 
 }
 
@@ -58,15 +67,21 @@ function deleteTransaction(index) {
   // Update the balance
   if (transaction.type === 'income') {
     balance -= transaction.amount;
+    transac -=1;
+
   } else if (transaction.type === 'expense') {
     balance += transaction.amount;
+    transac -=1;
+
   }
 
   // Remove the transaction from the array
   transactions.splice(index, 1);
-
+  localStorage.setItem('transactions', JSON.stringify(transactions));
+  localStorage.setItem('balance', balance);
+  localStorage.setItem('transac', transac);
   // Update the UI
-  updateUI();
+  updateUI(); 
 }
 
 // Function to update the UI
@@ -76,6 +91,7 @@ function updateUI() {
 
   // Update the balance display
   balanceDisplay.textContent = balance.toFixed(2);
+  NooftransactionDisplay.textContent = transac.toFixed(2);
 
   // Render each transaction in the list
   transactions.forEach((transaction, index) => {
@@ -93,9 +109,11 @@ function updateUI() {
     listItem.appendChild(deleteButton);
     listItem.appendChild(editButton);
     transactionList.appendChild(listItem );
+    console.log(transactions);
   });
 }
 
 // Add event listener to the transaction form
 transactionForm.addEventListener('submit', addTransaction);
 
+updateUI();
