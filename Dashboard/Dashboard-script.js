@@ -62,6 +62,7 @@ function sidebar_close() {
 
 var transactions = JSON.parse(localStorage.getItem('transactions')) || [];
 var transactionList = document.getElementById('transaction-list');
+balance.innerHTML = localStorage.getItem('balance')
 transactionList.innerHTML = '';
 for(var i = 0; i < transactions.length; i++){
     const listItem = document.createElement('li');
