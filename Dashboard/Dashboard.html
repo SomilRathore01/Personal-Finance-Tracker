@@ -6,41 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Dashnborad.css">
   <title>Fintrack</title>
-  <link rel="icon" type="image/x-icon" href="Dashboard-images/Favicon.png">
+  <link rel="icon" type="image/x-icon" href="../Images/Favicon.png">
 </head>
 
 <body>
   <div class="left-side">
     <div class="wrapper">
-      <div class="side-bar">
+      <div id="mySidebar" style="display: none;" class="side-bar">
+        <button onclick="sidebar_close()" class="close-btn">&times;</button>
         <div class="profile">
-          <img src="Dashboard-images/user.png" alt="Profile-Picture">
-          <h3>User-1</h3>
+          <img src="../Images/Profile.png" alt="Profile-Picture">
+          <h3 id="username"></h3>
         </div>
         <div class="nav-bar">
-          <a href="#">
+          <a href="../Dashboard/Dashboard.html">
             <span class="icon"><i class="fas fa-home"></i></span>
             <span class="nav-item">Dashboard</span>
           </a>
-          <a href="#">
+          <a href="../View Transaction/transcation.html">
             <span class="icon"><i class="fa fa-money"></i></span>
             <span class="nav-item">Transactions</span>
           </a>
-          <a href="#">
+          <a href="../Income Page/income.html">
             <span class="icon"><i class="fa fa-dollar"></i></span>
             <span class="nav-item">Income</span>
           </a>
-          <a href="#">
+          <a href="../Expense Page/expense.html">
             <span class="icon"><i class="fa fa-credit-card"></i></span>
             <span class="nav-item">Expenses</span>
           </a>
         </div>
         <div class="logout">
-          <a href="#">Logout</a>
+          <a href="../Landing Page/Landing-index.html">Logout</a>
         </div>
       </div>
     </div>
   </div>
+  <div class="top-nav-bar">
+    <button class="side-bar-btn" onclick="sidebar_open()">☰</button>
+    <div class="nav-bar-container">
+      <img src="../Images/logo.png" alt="Logo">
+    </div>
+  </div>
+
   <div class="right-side">
     <div class="middle">
       <div id="chart"></div>
@@ -104,27 +112,9 @@
       </div>
       <div class="history">
         <h2>Recent Transactions</h2>
-        <div class="credit">
-          <span>Salary</span>
-          <span>15/06/2023</span>
-          <span>65000</span>
-        </div>
-        <div class="debit">
-          <span>Investment</span>
-          <span>17/06/2023</span>
-          <span>5000</span>
-        </div>
-        <div class="debit">
-          <span>Rent</span>
-          <span>15/06/2023</span>
-          <span>10000</span>
-        </div>
-        <div class="credit">
-          <span>Freelancing</span>
-          <span>15/06/2023</span>
-          <span>2000</span>
-        </div>
-        <a href="#">View All Transactions</a>
+        <ul id="transaction-list">
+        </ul>
+        <a href="../View Transaction/transcation.html">View All Transactions</a>
       </div>
     </div>
   </div>

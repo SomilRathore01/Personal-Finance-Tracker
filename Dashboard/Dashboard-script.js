@@ -44,7 +44,58 @@ const maxExpense = document.getElementById('maxE');
 minExpense.innerText = 26000;
 maxExpense.innerText = 30000;
 
+var userName = document.getElementById('username');
+userName.innerHTML = localStorage.getItem('firstname');
 
+function sidebar_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("mySidebar").style.position = "absolute";
+    document.getElementById("mySidebar").style.zIndex = "+1";
+    // document.getElementById("mySidebar").style.transition = "width 2s linear 5s";
+  }
+  
+function sidebar_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    // document.getElementById("mySidebar").style.transition = "width 2s linear 5s";
+}
+
+
+var transactions = JSON.parse(localStorage.getItem('transactions')) || [];
+var transactionList = document.getElementById('transaction-list');
+transactionList.innerHTML = '';
+for(var i = 0; i < transactions.length; i++){
+    const listItem = document.createElement('li');
+    listItem.style.wordSpacing = "40px"
+    listItem.textContent = `${transactions[i].description}:         ${transactions[i].date}         ${transactions[i].amount.toFixed(2)}`;
+    listItem.classList.add(transactions[i].type);
+    if(transactions[i].type === "income"){
+        listItem.style.backgroundColor = "green";
+        listItem.style.border =  "1px solid green";
+        listItem.style.borderRadius = "15px";
+        listItem.style.width = "350px";
+        listItem.style.display = "flex";
+        listItem.style.justifyContent = "space-around";
+        listItem.style.margin = "20px auto 20px auto";
+        listItem.style.paddingTop = "8px";
+        listItem.style.paddingBottom = "8px";
+        listItem.style.color = "white";
+        listItem.style.fontWeight = "bold";
+    }
+    else{
+        listItem.style.backgroundColor = "red";
+        listItem.style.border =  "1px solid red";
+        listItem.style.borderRadius = "15px";
+        listItem.style.width = "350px";
+        listItem.style.display = "flex";
+        listItem.style.justifyContent = "space-around";
+        listItem.style.margin = "20px auto 20px auto";
+        listItem.style.paddingTop = "8px";
+        listItem.style.paddingBottom = "8px";
+        listItem.style.color = "white";
+        listItem.style.fontWeight = "bold";
+    }
+    transactionList.appendChild(listItem);
+}
 
 
 

@@ -92,7 +92,7 @@ body{ margin: 0;
     align-self: center;
 }
 
-.login-form button{
+#login-btn{
     width: 10vw;
     height: 4vh;
     border-radius: 15px;
@@ -100,9 +100,11 @@ body{ margin: 0;
     background-color: #007bff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    margin-left: 52px;
+    padding-left: 2vh;
 }
 
-.login-form button:hover{
+#login-btn :hover{
     background-color: white;
     color: #007bff;
     border: 1px solid #007bff;

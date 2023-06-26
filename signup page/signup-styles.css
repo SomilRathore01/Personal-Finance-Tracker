@@ -14,7 +14,8 @@ body{
 }
 
 .left-side header img{
-    width: 250px;
+    margin: 20px auto auto 20px;
+    width: 220px;
     height: 60px;
 }
 
@@ -91,6 +92,11 @@ body{
     background-color: aliceblue;
     border: 1px solid #007bff;
     color: #007bff;
+}
+
+.details a{
+    text-decoration: none;
+    color: white;
 }
 
 .details button{
@@ -176,4 +182,29 @@ hr{
     border-radius: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* align-self: center; */
+}
+
+.right-side main button:hover,
+.right-side main button:active{
+    background-color: #007bff;
+    color: white;
+    border: 1px solid white;
+}
+
+#rgstr_btn{
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-left: 145px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+}
+
+#rgstr_btn:hover,
+#rgstr_btn:active{
+    color: #007bff;
+    background-color: white;
+    border: 1px solid #007bff;
 }

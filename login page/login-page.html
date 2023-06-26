@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="login-page-styles.css">
-    <link rel="icon" type="image/x-icon" href="login-images/Favicon.png">
+    <link rel="icon" type="image/x-icon" href="../Images/Favicon.png">
 </head>
 
 <body>
-    <div class="left-side">
+    <div class="left-side"> 
         <header>
-            <img src="login-images/logo.png">
+            <img src="../Images/logo.png">
         </header>
         <main>
             <div class="login">
@@ -22,16 +22,16 @@
                 <div class="login-options">
                     <p>Login using social networks</p><br>
                     <div class="login-links">
-                        <a href="login-page.html"><img src="login-images/download.png"></a>
-                        <a href="login-page.html"><img src="login-images/git hbu logo.png"></a>
-                        <a href="login-page.html"><img src="login-images/linkedin logo.png"></a>
+                        <a href="../login page/login-page.html"><img src="../Images/download.png"></a>
+                        <a href="../login page/login-page.html"><img src="../Images/git hbu logo.png"></a>
+                        <a href="../login page/login-page.html"><img src="../Images/linkedin logo.png"></a>
                     </div>
                 </div>
                 <hr>
                 <div class="login-form">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Password">
-                    <a href="Dashboard.html"><button>LOGIN</button></a>
+                    <input type="text" placeholder="Email" id="email">
+                    <input type="password" placeholder="Password" id="pw">
+                    <input type="submit" value="Login" onclick="check()" id="login-btn">
                 </div>
             </div>
         </main>
@@ -41,9 +41,9 @@
         <main>
             <h1>Are You New Here?</h1>
             <p>Sign up here and use our personal finance tracker with new opportunities!!</p>
-            <a href="signup.html"><button>Sign Up</button></a>
+            <a href="../signup page/signup.html"><button>Sign Up</button></a>
         </main>
     </div>
 </body>
-
+<script src="login-page-script.js"></script>
 </html>
