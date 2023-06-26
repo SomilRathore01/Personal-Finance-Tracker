@@ -45,6 +45,7 @@ body {
   border: none;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 5px;
 }
 
 .nav-links li a:hover{
