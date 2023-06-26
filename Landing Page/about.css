@@ -149,7 +149,7 @@ h1{
 .person{
     width: 150px;
     height: 150px;
-    background-color: white;
+  
     border:2px dotted black;
     border-radius: 50%;
 }
@@ -165,29 +165,21 @@ color: black;
 }
 
 #raj{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-size: cover;
+  background-image: url(../Images/Photo_0801CS211072_BT_CS_RAJGUPTA.png);
+   background-size: 148px 160px;
 }
 
 #somil{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-size: cover;
+  background-image: url(../Images/sharpen_WhatsApp_Image_2023-02-04_at_07.43.56.jpeg );
+  background-size: 148px 160px;
 }
 
 #mayank{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-size: cover;
+  background-image: url(../Images/WhatsApp\ Image\ 2023-06-26\ at\ 17.50.32.jpeg );
+  background-size: 148px 160px;
 }
 
 #neha{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-size: cover;
+  background-image: url(../Images/Screenshot\ \(394\).png );
+  background-size: 148px 160px;
 }
