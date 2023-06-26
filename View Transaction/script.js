@@ -6,12 +6,17 @@ const typeInput = document.getElementById('type');
 const transactionList = document.getElementById('transaction-list');
 const balanceDisplay = document.getElementById('balance');
 const NooftransactionDisplay = document.getElementById('transac');
+const NooftransactionDisplay = document.getElementById('transac');
 const dateinput = document.getElementById('date');
 
 // Initialize transaction data
 let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
 let balance = parseFloat(localStorage.getItem('balance')) || 0;
 let transac= parseFloat(localStorage.getItem('transac')) || 0;
+let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
+let balance = parseFloat(localStorage.getItem('balance')) || 0;
+let transac= parseFloat(localStorage.getItem('transac')) || 0;
+
 
 
 // Function to add a transaction
@@ -34,8 +39,11 @@ function addTransaction(e) {
   if (type === 'income') {
     balance += amount;
     transac +=1;
+    transac +=1;
   } else if (type === 'expense') {
     balance -= amount;
+    transac +=1;
+
     transac +=1;
 
   }
@@ -43,8 +51,11 @@ function addTransaction(e) {
   // Clear form inputs
   descriptionInput.value = '';
   dateinput.value = '';
+  dateinput.value = '';
   amountInput.value = '';
   typeInput.selectedIndex = 0;
+  localStorage.setItem('transactions', JSON.stringify(transactions));
+  localStorage.setItem('balance', balance);
   localStorage.setItem('transactions', JSON.stringify(transactions));
   localStorage.setItem('balance', balance);
   // Update the UI
@@ -53,6 +64,9 @@ function addTransaction(e) {
 const EditFunc  = (index) =>{
     let update = window.prompt("Update the discription")
     let transaction = transactions[index];
+    const updatedval =  transaction.description=update 
+    localStorage.setItem('transactions', JSON.stringify(transactions));
+    localStorage.setItem('balance', balance); 
     const updatedval =  transaction.description=update 
     localStorage.setItem('transactions', JSON.stringify(transactions));
     localStorage.setItem('balance', balance); 
@@ -69,8 +83,12 @@ function deleteTransaction(index) {
     balance -= transaction.amount;
     transac -=1;
 
+    transac -=1;
+
   } else if (transaction.type === 'expense') {
     balance += transaction.amount;
+    transac -=1;
+
     transac -=1;
 
   }
@@ -80,7 +98,11 @@ function deleteTransaction(index) {
   localStorage.setItem('transactions', JSON.stringify(transactions));
   localStorage.setItem('balance', balance);
   localStorage.setItem('transac', transac);
+  localStorage.setItem('transactions', JSON.stringify(transactions));
+  localStorage.setItem('balance', balance);
+  localStorage.setItem('transac', transac);
   // Update the UI
+  updateUI(); 
   updateUI(); 
 }
 
@@ -91,6 +113,7 @@ function updateUI() {
 
   // Update the balance display
   balanceDisplay.textContent = balance.toFixed(2);
+  NooftransactionDisplay.textContent = transac.toFixed(2);
   NooftransactionDisplay.textContent = transac.toFixed(2);
 
   // Render each transaction in the list
@@ -109,6 +132,7 @@ function updateUI() {
     listItem.appendChild(deleteButton);
     listItem.appendChild(editButton);
     transactionList.appendChild(listItem );
+    console.log(transactions);
     console.log(transactions);
   });
 }
