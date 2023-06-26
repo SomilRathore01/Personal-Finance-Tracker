@@ -2,7 +2,7 @@
 
  ## Fintrack
 
-<img width ="200px " src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Images/Favicon.png">
+<img width ="200px " src="https://drive.google.com/file/d/1PmCGm7l40GjALDQITRzFWByyX7MZw4Lo/view?usp=sharing">
 <br> 
 
 <a href="https://drive.google.com/file/d/19gKWKiF6bSgZI0X1FsSb8hXZCgM0KGvg/view?usp=share_link">![Demo Video](https://img.shields.io/badge/Demo_Video_Of_Game-Click_ME-brightgreen.svg?style=plastic&logo=YouTube&logoColor=red)</a>
@@ -43,7 +43,7 @@
 💻 Project logo:- 
 
 
-<img width="300px" alt="Logo" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Logofull.png">
+<img width="300px" alt="Logo" src="https://drive.google.com/file/d/1VyeFAHJCZlnyQuRy4nypgLMSZ3OlhSNr/view?usp=sharing">
 
 
 
@@ -105,37 +105,37 @@ graph TD;
 ---
 
 # Home Page
-![Screenshot (1695)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/landing%20page.png)
+![Home](https://drive.google.com/file/d/1gG-xA_M5E695vXQ8u3-wU5CnFLUzQpq9/view?usp=sharing)
 
-![Screenshot (1696)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Aboutpage1.png)
+![About1)](https://drive.google.com/file/d/1DZJ32OGx0mB0Cg7M8xBK6SCbgXPBkB9m/view?usp=sharing)
 
-![Screenshot (1696)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Aboutpage2.png)
+![About2](https://drive.google.com/file/d/1WnzmL5XGCQOHKHYKosxUBhXGOYXLl2bn/view?usp=sharing)
 
-![Screenshot (1691)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/feedbackpage.png)
+![Feedback](https://drive.google.com/file/d/1zS6Rse9wRNWqLEf3UJ9X8SyFVJjsXf9O/view?usp=sharing)
 
 
 # Signup Page 
 
 
-![Screenshot (1693)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Signup%20Page.png)
+![Sign up](https://drive.google.com/file/d/1GZ2h2PAqauety1qtTMFQw8Zphdp4us2D/view?usp=sharing)
 
 # LoginPage
 
-![Screenshot (1694)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Login%20Page.png)
+![Login ](https://drive.google.com/file/d/1r7dPpaHuFYkG9zhgMgUSKtBNyucDkM4h/view?usp=sharing)
 
 
 # Dashboard Page
 
-<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Dashboard%20Page.png">
+<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://drive.google.com/file/d/1rncooOGz3THxUHQJihaAC-ggMiMHLlyT/view?usp=sharing">
 
 # Transaction Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Transaction%20Page.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://drive.google.com/file/d/1V1WCkZ7zLUUMEi2vuEReHBG3dFWMWJ0-/view?usp=sharing">
 
 # Income Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Income%20Page.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://drive.google.com/file/d/1Pk1gdb_xOJRzt0iUX5WdntNbQcbLGH_O/view?usp=sharing">
 
 # Expense Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/ExpensePage.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://drive.google.com/file/d/1flR6niEAoFxP0ziMuQYJ2_PE7DlAHw0S/view?usp=sharing">
 
 
 ---
