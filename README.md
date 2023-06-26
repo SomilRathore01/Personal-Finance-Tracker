@@ -2,10 +2,11 @@
 
  ## Fintrack
 
-<img width ="200px " src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Images/Favicon.png">
+<img width ="200px" src="https://imgur.com/M5sTr8r.png">
+
 <br> 
 
-<a href="https://drive.google.com/file/d/19gKWKiF6bSgZI0X1FsSb8hXZCgM0KGvg/view?usp=share_link">![Demo Video](https://img.shields.io/badge/Demo_Video_Of_Game-Click_ME-brightgreen.svg?style=plastic&logo=YouTube&logoColor=red)</a>
+<a href="https://drive.google.com/file/d/19gKWKiF6bSgZI0X1FsSb8hXZCgM0KGvg/view?usp=share_link">![Demo Video](https://img.shields.io/badge/Demo_Video-Click_ME-brightgreen.svg?style=plastic&logo=YouTube&logoColor=red)</a>
 
 [![Deployed App Vercel Link](https://img.shields.io/badge/Deployed_App_Vercel_Link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://getfintrack.netlify.app/)
 
@@ -43,7 +44,7 @@
 💻 Project logo:- 
 
 
-<img width="300px" alt="Logo" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Logofull.png">
+<img width="300px" alt="Logo" src="https://imgur.com/TgpEhvY.png">
 
 
 
@@ -105,37 +106,37 @@ graph TD;
 ---
 
 # Home Page
-![Screenshot (1695)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/landing%20page.png)
+![Home](https://imgur.com/nOlxDYU.png)
 
-![Screenshot (1696)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Aboutpage1.png)
+<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://imgur.com/dADo3Sb.png">
 
-![Screenshot (1696)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Aboutpage2.png)
+![About2](https://imgur.com/vwOJdAS.png)
 
-![Screenshot (1691)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/feedbackpage.png)
+![Feedback](https://imgur.com/9v1UAMO.png)
 
 
 # Signup Page 
 
 
-![Screenshot (1693)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Signup%20Page.png)
+![Sign up](https://imgur.com/lSvikI0.png)
 
 # LoginPage
 
-![Screenshot (1694)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Login%20Page.png)
+![Login ](https://imgur.com/WBGAn9u.png)
 
 
 # Dashboard Page
 
-<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Dashboard%20Page.png">
+![About1)](https://imgur.com/KG9FHmw.png)
 
 # Transaction Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Transaction%20Page.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://imgur.com/gXHFVVx.png">
 
 # Income Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Income%20Page.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://imgur.com/BsrE4Aj.png">
 
 # Expense Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/ExpensePage.png">
+<img width="1036" alt="Expense" src="https://imgur.com/r04StZc.png">
 
 
 ---
