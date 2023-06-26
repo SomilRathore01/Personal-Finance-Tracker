@@ -2,7 +2,8 @@
 
  ## Fintrack
 
-<img width ="200px " src="https://drive.google.com/file/d/1PmCGm7l40GjALDQITRzFWByyX7MZw4Lo/view?usp=sharing">
+<img width ="200px" src="https://imgur.com/M5sTr8r.png">
+
 <br> 
 
 <a href="https://drive.google.com/file/d/19gKWKiF6bSgZI0X1FsSb8hXZCgM0KGvg/view?usp=share_link">![Demo Video](https://img.shields.io/badge/Demo_Video-Click_ME-brightgreen.svg?style=plastic&logo=YouTube&logoColor=red)</a>
@@ -43,7 +44,7 @@
 💻 Project logo:- 
 
 
-<img width="300px" alt="Logo" src="https://drive.google.com/file/d/1VyeFAHJCZlnyQuRy4nypgLMSZ3OlhSNr/view?usp=sharing">
+<img width="300px" alt="Logo" src="https://imgur.com/TgpEhvY.png">
 
 
 
@@ -105,37 +106,37 @@ graph TD;
 ---
 
 # Home Page
-![Home](https://drive.google.com/file/d/1gG-xA_M5E695vXQ8u3-wU5CnFLUzQpq9/view?usp=sharing)
+![Home](https://imgur.com/nOlxDYU.png)
 
-![About1)](https://drive.google.com/file/d/1DZJ32OGx0mB0Cg7M8xBK6SCbgXPBkB9m/view?usp=sharing)
+<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://imgur.com/dADo3Sb.png">
 
-![About2](https://drive.google.com/file/d/1WnzmL5XGCQOHKHYKosxUBhXGOYXLl2bn/view?usp=sharing)
+![About2](https://imgur.com/vwOJdAS.png)
 
-![Feedback](https://drive.google.com/file/d/1zS6Rse9wRNWqLEf3UJ9X8SyFVJjsXf9O/view?usp=sharing)
+![Feedback](https://imgur.com/9v1UAMO.png)
 
 
 # Signup Page 
 
 
-![Sign up](https://drive.google.com/file/d/1GZ2h2PAqauety1qtTMFQw8Zphdp4us2D/view?usp=sharing)
+![Sign up](https://imgur.com/lSvikI0.png)
 
 # LoginPage
 
-![Login ](https://drive.google.com/file/d/1r7dPpaHuFYkG9zhgMgUSKtBNyucDkM4h/view?usp=sharing)
+![Login ](https://imgur.com/WBGAn9u.png)
 
 
 # Dashboard Page
 
-<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://drive.google.com/file/d/1rncooOGz3THxUHQJihaAC-ggMiMHLlyT/view?usp=sharing">
+![About1)](https://imgur.com/KG9FHmw.png)
 
 # Transaction Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://drive.google.com/file/d/1V1WCkZ7zLUUMEi2vuEReHBG3dFWMWJ0-/view?usp=sharing">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://imgur.com/gXHFVVx.png">
 
 # Income Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://drive.google.com/file/d/1Pk1gdb_xOJRzt0iUX5WdntNbQcbLGH_O/view?usp=sharing">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://imgur.com/BsrE4Aj.png">
 
 # Expense Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://drive.google.com/file/d/1flR6niEAoFxP0ziMuQYJ2_PE7DlAHw0S/view?usp=sharing">
+<img width="1036" alt="Expense" src="https://imgur.com/r04StZc.png">
 
 
 ---
