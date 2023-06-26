@@ -14,7 +14,13 @@
 
 > ✨ABOUT 
 
-⭕CHANDA KAUDI ,also known as Chaupar or Chaubara, is a traditional Indian board game that has been enjoyed enjoyed in India for centuries, and it is still played by many people today.
+⭕Fintrack ,is an online platform that allows users to manage their finances effectively.
+
+⭕The project typically includes designing and implementing features that enables users to track their incomes, expenses and prominent financial health.
+
+⭕This web application will empower individual to gain better control over their financial situations, make informed decisions and achieve their financial goals 
+  by better analysis, tracking and management of all transactions, incomes, expenses and savings.
+
 
 
 ---
@@ -37,7 +43,7 @@
 💻 Project logo:- 
 
 
- ![Logo_Fintrack](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Images/logo.png)
+<img width="300px" alt="Logo" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Logofull.png">
 
 
 
@@ -99,35 +105,37 @@ graph TD;
 ---
 
 # Home Page
-![Screenshot (1695)](https://user-images.githubusercontent.com/107506646/222924091-0e918d6a-8904-4ce1-9f83-6886b382eebf.png)
+![Screenshot (1695)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/landing%20page.png)
 
-![Screenshot (1696)](https://user-images.githubusercontent.com/107506646/222924124-29e95283-f287-4ea4-b72f-914a5be75e3b.png)
+![Screenshot (1696)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Aboutpage1.png)
 
-![Screenshot (1691)](https://user-images.githubusercontent.com/107506646/222924130-ed4b06c3-015f-497d-8658-2befc6bdf3a8.png)
+![Screenshot (1696)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Aboutpage2.png)
+
+![Screenshot (1691)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/feedbackpage.png)
 
 
 # Signup Page 
 
 
-![Screenshot (1693)](https://user-images.githubusercontent.com/107506646/222924095-64c03c7f-fb3a-4e57-8cf1-70507032b7dc.png)
+![Screenshot (1693)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Signup%20Page.png)
 
 # LoginPage
 
-![Screenshot (1694)](https://user-images.githubusercontent.com/107506646/222924098-79a12e29-f12c-4759-8a2b-46453160125c.png)
+![Screenshot (1694)](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Login%20Page.png)
 
 
 # Dashboard Page
 
-<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://user-images.githubusercontent.com/107506646/222924177-27972250-7f48-4906-ae78-aa0f56ead6d9.png">
+<img width="1680" alt="Screenshot 2023-03-05 at 12 00 16 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Dashboard%20Page.png">
 
 # Transaction Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://user-images.githubusercontent.com/107506646/222924252-f817a535-3a7d-4fce-97ae-1d312458397e.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Transaction%20Page.png">
 
 # Income Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://user-images.githubusercontent.com/107506646/222924252-f817a535-3a7d-4fce-97ae-1d312458397e.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/Income%20Page.png">
 
 # Expense Page
-<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://user-images.githubusercontent.com/107506646/222924252-f817a535-3a7d-4fce-97ae-1d312458397e.png">
+<img width="1036" alt="Screenshot 2023-03-05 at 12 04 03 AM" src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Screenshots/ExpensePage.png">
 
 
 ---
