@@ -1,5 +1,6 @@
 # Project Name 
- Fintrack
+
+ ## Fintrack
 <br>
 
 <img src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Images/Favicon.png">
@@ -39,7 +40,12 @@
  ![Logo_Fintrack](https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Images/logo.png)
 
 
+
+
+
 ---
+
+
 ## 💫Tech-Stack->
 
 - #### For Frontend :-
@@ -55,7 +61,10 @@
 
    
 ![spgmr](https://user-images.githubusercontent.com/107506646/222902675-7e06b37e-bbca-4803-9792-cc6752afee3e.gif)
+
 ---
+
+
 ## Features ✨:-
 ---
  | Serial No            | Feature                                                              |
@@ -79,7 +88,10 @@ graph TD;
        LoginPage-->DashboardPage;
        DashboardPage --> TransactionPage
        DashboardPage-->IncomePage
-       DashboardPage-->ExpensePage 
+     DashboardPage-->ExpensePage
+
+
+
 ```
 
 ---
