@@ -5,7 +5,7 @@
 <img width ="200px " src="https://drive.google.com/file/d/1PmCGm7l40GjALDQITRzFWByyX7MZw4Lo/view?usp=sharing">
 <br> 
 
-<a href="https://drive.google.com/file/d/19gKWKiF6bSgZI0X1FsSb8hXZCgM0KGvg/view?usp=share_link">![Demo Video](https://img.shields.io/badge/Demo_Video_Of_Game-Click_ME-brightgreen.svg?style=plastic&logo=YouTube&logoColor=red)</a>
+<a href="https://drive.google.com/file/d/19gKWKiF6bSgZI0X1FsSb8hXZCgM0KGvg/view?usp=share_link">![Demo Video](https://img.shields.io/badge/Demo_Video-Click_ME-brightgreen.svg?style=plastic&logo=YouTube&logoColor=red)</a>
 
 [![Deployed App Vercel Link](https://img.shields.io/badge/Deployed_App_Vercel_Link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://getfintrack.netlify.app/)
 
