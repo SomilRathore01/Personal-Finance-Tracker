@@ -1,9 +1,9 @@
 # Project Name 
 
  ## Fintrack
-<br>
 
-<img src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Images/Favicon.png">
+<img width ="200px " src="https://github.com/code-raj11903/PersonalFinanceTracker/blob/main/Images/Favicon.png">
+<br> 
 
 <a href="https://drive.google.com/file/d/19gKWKiF6bSgZI0X1FsSb8hXZCgM0KGvg/view?usp=share_link">![Demo Video](https://img.shields.io/badge/Demo_Video_Of_Game-Click_ME-brightgreen.svg?style=plastic&logo=YouTube&logoColor=red)</a>
 
@@ -86,9 +86,9 @@ graph TD;
     LoginPage-->SignUpPage;
       SignUpPage-->LoginPage;
        LoginPage-->DashboardPage;
-       DashboardPage --> TransactionPage
-       DashboardPage-->IncomePage
-     DashboardPage-->ExpensePage
+       DashboardPage <--> TransactionPage
+       DashboardPage<-->IncomePage
+     DashboardPage<-->ExpensePage
 
 
 
