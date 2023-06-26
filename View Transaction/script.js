@@ -6,13 +6,9 @@ const typeInput = document.getElementById('type');
 const transactionList = document.getElementById('transaction-list');
 const balanceDisplay = document.getElementById('balance');
 const NooftransactionDisplay = document.getElementById('transac');
-const NooftransactionDisplay = document.getElementById('transac');
 const dateinput = document.getElementById('date');
 
 // Initialize transaction data
-let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
-let balance = parseFloat(localStorage.getItem('balance')) || 0;
-let transac= parseFloat(localStorage.getItem('transac')) || 0;
 let transactions = JSON.parse(localStorage.getItem('transactions')) || [];
 let balance = parseFloat(localStorage.getItem('balance')) || 0;
 let transac= parseFloat(localStorage.getItem('transac')) || 0;
@@ -67,7 +63,7 @@ const EditFunc  = (index) =>{
     const updatedval =  transaction.description=update 
     localStorage.setItem('transactions', JSON.stringify(transactions));
     localStorage.setItem('balance', balance); 
-    const updatedval =  transaction.description=update 
+    // const updatedval =  transaction.description=update 
     localStorage.setItem('transactions', JSON.stringify(transactions));
     localStorage.setItem('balance', balance); 
     updateUI() 
